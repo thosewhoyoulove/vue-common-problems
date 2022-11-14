@@ -3,7 +3,7 @@
  * @Author: 曹俊
  * @Date: 2022-09-19 09:47:58
  * @LastEditors: 曹俊
- * @LastEditTime: 2022-11-05 19:43:32
+ * @LastEditTime: 2022-11-14 20:52:42
 -->
 
 # hash 模式 和 history 模式
@@ -14,7 +14,7 @@
 
 - hash 模式的所有工作都是有前端完成的，不需要后端的配合
 - hash 模式的实现方法是通过监听 URL 中的 hash 部分的变化，从而做出对应的渲染逻辑
-- hash 模式下，URL 中会带有#，看起来不太美观
+- hash 模式下，URL 中会带有#，看起来不太美观，但是兼容性好
 
 ## history 模式：主要依靠于 pushState 与 replaceState 实现
 
